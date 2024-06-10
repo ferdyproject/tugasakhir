@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-image">
+            <h1>Portofolio Saya</h1>
+            <p>Web Developer & Designer</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Tentang Saya</h2>
+            <p>Saya adalah seorang web developer dan desainer yang bersemangat dalam menciptakan website yang indah dan fungsional.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Proyek Saya</h2>
+            <div class="project-cards">
+                <div class="card">
+                    <img src="images/project1.jpg" alt="Proyek 1">
+                    <h3>Proyek 1</h3>
+                    <p>Deskripsi singkat tentang proyek 1.</p>
+                </div>
+                <div class="card">
+                    <img src="images/project2.jpg" alt="Proyek 2">
+                    <h3>Proyek 2</h3>
+                    <p>Deskripsi singkat tentang proyek 2.</p>
+                </div>
+                <div class="card">
+                    <img src="images/project3.jpg" alt="Proyek 3">
+                    <h3>Proyek 3</h3>
+                    <p>Deskripsi singkat tentang proyek 3.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Kontak Saya</h2>
+            <form id="contactForm">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+            <p id="formMessage"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Portofolio Saya. Semua Hak Dilindungi.</p>
+        <div class="social-media">
+            <a href="#"><img src="fb.png" alt="Facebook"></a>
+            <a href="#"><img src="twiter.png" alt="Twitter"></a>
+            <a href="#"><img src="ig.png" alt="instagram"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
